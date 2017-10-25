@@ -1,0 +1,199 @@
+@charset "gb2312";
+/* CSS Document */
+html{font-size:62.5%;}
+body, ul, ol, dl, li, dd, h1, h2, h3, h4, h5, h6, p, form, fieldset, legend, input, textarea, select, button,table, th, td {padding: 0;margin: 0;}
+body{font-family:"Microsoft YaHei";font-size:12px; line-height:24px; background-color:#FFF }
+ol,ul,li{list-style:none}
+ol,ul{list-style:none}
+fieldset{border:0}
+img {
+    border: 0 none;
+    height: auto;
+    max-width: 100%;
+    width: auto; display:block
+}
+a{ text-decoration:none}
+table{border-collapse:collapse;border-spacing:0}
+input,select,button,label{vertical-align:middle;font-size:12px}
+input::-moz-focus-inner{ border:0; padding:0; margin:0; }
+
+.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;*zoom:1;}
+.left{float:left}
+.right{float:right}
+h1,h3,h4,h5{font-weight: 200}
+.div-main{
+    margin: 0 auto;
+    max-width: 720px; min-width:320px; overflow:hidden;
+	width: 100%;line-height: 250%;}
+.div-main p{line-height: normal;}
+.main,.main2{width: 94%;margin: 0 auto}
+.banner{position: relative;min-height:320px;padding-bottom:7%}
+.banner a {
+    background: #de2d2c;
+    border-radius: 2em;
+    color: #fff;
+    display: block;
+    font-size: 3.6rem;
+    margin: -17% auto 0;
+    padding:3% 0;
+    position: relative;
+    width: 70%;box-shadow:0 .2em rgba(170, 10, 9, 0.6);text-align: center;
+}
+.banner a .hand {
+    animation: 1s linear 0s normal none infinite running dong;
+    right: 7%;
+    width: 6%;position: absolute;bottom: 1%
+}
+hgroup h3{font-size:4rem;color: #333333;text-align: center;line-height: 120%;font-weight: bold;}
+hgroup h4{font-size: 5.2rem;text-align: center;font-weight: bold;color: #333333;line-height: 100%}
+hgroup h4 span{color: #48428d}
+hgroup .line{background: #333333;width: 12%;height: .25em;margin: 1% auto 0}
+.div1{position: relative;}
+.div1 .tab{padding: 1.5%;border:1px dashed #564e7e;margin-top: 6%}
+.div1 .tab .active{background: url(//res.bjmylike.com/wap/images/special/171024eyeHospital/hover.jpg)no-repeat scroll 0 0 / 100% auto;color: #fff}
+.div1 .tab li {
+    background:url(//res.bjmylike.com/wap/images/special/171024eyeHospital/link.jpg) no-repeat scroll 0 0 / 100% auto;
+    color: #2f2300;
+    float: left;
+    font-size: 3.2rem;
+    margin: 0.2% 0 0 0.2%;
+    padding: 3.3% 0;
+    text-align: center;
+    width: 24.8%;
+}
+.div1 .pic {
+    margin: -0.5% auto 0;
+    width: 2.8%;
+}
+.div1 .tab li:first-child,.div1 .tab li:nth-child(5){margin-left: 0}
+.div1 .case{overflow: hidden;margin-top: 4%}
+.div1 .case section{width: 98%;margin: 0 auto;}
+.div1 .case section .case-pic{width: 50%;}
+.div1 .case section .case-pic p{background: #f8f8f8;font-size: 2.4rem;color: #2f2300;text-align: center;;padding: 4% 0}
+.div1 .case section .right p{background: #ffeaea}
+.div1 .case li a{position: relative;display: block;}
+.div1 .case li a .hand {
+    animation: 1s linear 0s normal none infinite running dong;
+    position: absolute;
+    right: 39%;
+    top: 64%;
+    width: 4.5%;
+}
+.main .click  a{
+    padding: 3% 0;
+    width: 48%;float: left;position: relative;box-shadow:0 .1em rgba(170, 10, 9, 0.6)}
+.main  .click  a:last-child{float: right;background: #48428d;box-shadow:0 .1em rgba(49, 44, 102, 0.6)}
+.main a .hand,.div6 ul li a .hand{
+    animation: 1s linear 0s normal none infinite running dong;
+    right: 7%;
+    bottom: 1%;
+    width: 7%;position: absolute;
+}
+.div6 ul li a .hand{width: 13%}
+.padding{padding: 6% 0}
+.div2{background: url(//res.bjmylike.com/wap/images/special/171024eyeHospital/bj.jpg)no-repeat scroll 0 0 / 100% auto;padding-bottom: 8%}
+.div2 hgroup{padding-top: 6%}
+.div2 hgroup h3{font-size: 5.2rem;color: #ff6b6a;}
+.div2 hgroup h4{font-size: 4rem;color: #fff;}
+.div2 hgroup .line{background: #fff;}
+.div2 .dos{background: #fff;border-radius: .5em;padding: 4% 0;margin: 6% auto 0;width: 94%}
+.div2 .dos section{width: 86%;margin: 0 auto}
+.div2 .dos section p{font-size: 2.4rem;color: #0e0e1f;}
+.div2 .dos section p span{padding-left: 3.5%}
+.div2 .expert{overflow: hidden;margin-top: 3%} 
+.div2 .main a{margin-top: 3%}
+
+.main a{
+    background: #de2d2c;
+    border-radius: 2em;
+    color: #fff;
+    display: block;
+    font-size: 3.6rem;
+    margin: 6% auto 0;
+    padding:3% 0;
+    position: relative;
+    width: 70%;box-shadow:0 .2em rgba(170, 10, 9, 0.6);text-align: center;
+  }
+
+.pagination2{text-align: center;display:block;margin-top: 2%}
+.pagination2 .swiper-pagination-bullet-active {
+    border: none;
+    padding:1px;background:#fff 
+}
+.pagination2 span {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 1em;
+    margin-left: 1%;
+    opacity: 1;
+}
+
+.div3{position: relative;}
+.div3 ul{ overflow: hidden;margin-top: 2%}
+.div3 ul li{margin-top: 4%;position:relative;}
+.div3 ul li img{width: 96%}
+.div3 ul li dl{top:4%;width: 53%;position: absolute;}
+.div3 ul li dl dt{font-size: 3.6rem;color: #ff6b6a;line-height: 116%;font-weight: bold;}
+.div3 ul li dl dd{font-size: 2.4rem;color: #333333;margin-top: 6%;text-indent: 2em;line-height: 140%}
+.div3 ul li:nth-child(odd) dl{right: 4%}
+.div3 ul li:nth-child(odd) dl dt{padding-left: 11%}
+.div3 ul li:nth-child(even) dl{left: 0;width: 58%}
+.div3 ul li:nth-child(even) dl dt{color: #6861b8;padding-left: 14%}
+.div3 .main .click a:first-child{width: 60%;font-size: 3.2rem}
+.div3 .main .click a:last-child{width: 35%;font-size: 3.2rem}
+.div4{background: #4d4789;position: relative;padding-bottom: 10%}
+.div4 hgroup h3{color: #fff}
+.div4 hgroup h4{color: #fff}
+.div4 hgroup h4 span{color: #ff6b6a}
+.div4 hgroup .line{background: #fff}
+.div4 ul li section .dos .click  .hand{width: 11%} 
+.div4 ul{margin-top:4%;overflow: hidden;}
+.div4 ul li{background: #fff;border-radius: .5em;margin-top: 2%;padding: 4% 0}
+.div4 ul li .title{position: relative;width: 62%;margin:0 auto; }
+.div4 ul li .title h3{font-size: 3.6rem;color: #fff;text-align: center;position: absolute;top:0;left: 0;padding: 1.8% 0;width: 100%}
+.div4 ul li section{width: 98%;margin:4% auto 0;}
+.div4 ul .four section{padding-bottom: 6%}
+.div4 ul .four .click{width: 75%;position: absolute;bottom: 2%;left: 11.5%}
+.div4 ul li section .pic{width: 38%}
+.div4 ul li section .dos{width: 60%}
+.div4 ul li section .dos h3{font-size: 3rem;padding: 3% 0;border-bottom:1px solid #333333;}
+.div4 ul li section .dos h4{margin-top: 2%;font-size: 2.4rem;color: #333333;vertical-align: middle;}
+.div4 ul li section .dos h4 img{display: inline;padding-right: 2%;width: 6.5%}
+.div4 ul li section .dos h4 span{display: block;margin-left: 8.5%}
+.div4 ul li section .dos .click a{font-size: 3rem}
+.div5 ul{overflow: hidden;margin-top: 3%}
+.div5 ul li{float: left;width: 49%;margin-top:2%;padding-bottom: 3%;background: #f4f4f4}
+.div5 ul li:nth-child(even){float: right}
+.div5 ul li h3{font-size: 3rem;color: #6861b8;text-align: center;padding-top: 5%}
+.div5 ul li .line {
+    background: #333333 none repeat scroll 0 0;
+    height: 0.15em;
+    margin: 4% auto 0;
+    width: 21%;
+}
+.div5 ul li p{font-size: 2.4rem;color: #333333;width: 85%;margin: 2% auto 0}
+.div6{background: #f0efff;padding-bottom:15%;}
+.div6 ul{overflow: hidden;margin-top: 6%}
+.div6 ul li{width: 32%;float: left;margin: 2% 0 0 1%;position: relative;}
+.div6 ul li h3{font-size: 3rem;color: #2f2300;line-height:120%;padding: 21% 0;position: absolute;top:0;
+left: 0;width: 100%;text-align: center;
+}
+.div6 ul li:nth-child(3) h3,.div6 ul li:nth-child(4) h3{padding: 13% 0}
+@media only screen and (min-width:320px) and (max-width:348px){
+html{font-size: 30%}
+.div-main{line-height: 120%}
+.div2 .dos section p,.div4 ul li section .dos h4,.div5 ul li p{font-size: 2.2rem}
+hgroup h3{font-size: 4.2rem}
+.div3 ul li dl dt{font-size: 3.2rem}
+.div4 ul li section .dos h3{font-size: 2.8rem}
+}
+@media only screen and (min-width:349px) and (max-width:370px){
+html{font-size: 31.5%}
+.div-main{line-height: 115%}
+
+}
+@media only screen and (min-width:371px) and (max-width:480px){
+html{font-size: 32.5%}
+.div-main{line-height: 140%}
+
+}
